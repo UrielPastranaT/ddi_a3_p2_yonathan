@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GitHub</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900|Lato:400,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/prettyphoto/css/prettyphoto.css" rel="stylesheet">
+  <link href="lib/hover/hoverex-all.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">GitHub</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-right">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="escribir_en_git.html">ESCRIBIR EN GITHUB</a></li>
+          <li><a href="sintaxis.html">SINTAXIS </a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">INCORPORACIÓN <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="crear_cuenta_github.html">Iniciar con tu cuenta de GitHub</a></li>
+              <li>
+                <a href="cuenta_github_team.html">Iniciar con GitHub Team</a>
+              </li>
+            </ul>
+          </li>
+          <li class="active"><a href="acerca_de_github.html">ACERCA DE GITHUB </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div id="blue">
+    <div class="container">
+      <div class="row">
+        <h3>Acerca de Git</h3>
+          <h4>Aprende sobre el sistema de control de versiones, Git y cómo funciona con GitHub.</h4>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /blue -->
+
+
+
+  <div class="container mtb">
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-responsive" src="img/git_24.png" alt="">
+      </div>
+
+      <div class="col-lg-6">
+        <h4>Acerca de los repositorios</h4>
+        <p>Un repositorio o proyecto de Git comprende toda la colección de archivos y carpetas asociados con
+          un proyecto, en conjunto con el historial de revisión de cada archivo. El historial del archivo se
+          muestra como capturas de pantalla en el tiempo, las cuales se denominan "confirmaciones".
+          Estas confirmaciones pueden organizarse en varias líneas de desarrollo, llamadas "ramas".
+          Ya que Git es un DVCS, los repositorios son unidades auto-contenidas y cualquiera que tenga una copia
+          del repositorio puede acceder a toda la base de código y a su historial. Utilizando la línea de comandos
+          o cualquier otra interfaz de facilidad de uso, un repositorio de Git también permite: interactuar con
+          el historial, clonar el repositorio, crear ramas, confirmar, fusionar y comparar cambios entre las
+          versiones del código y más.</p>
+        <p>A través de plataformas como GitHub, Git también proporciona más oportunidades para la transparencia
+          y colaboración en los proyectos. Los repositorios públicos hacen que los equipos trabajen en conjunto
+          para crear el mejor producto final posible.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mtb">
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-responsive" src="img/git_25.png" alt="">
+      </div>
+
+      <div class="col-lg-6">
+        <h4>Cómo funciona GitHub</h4>
+        <p>GitHub hospeda repositorios de Git y proporciona a los desarrolladores las herramientas para generar
+          un código mejor mediante características de línea de comandos, propuestas (debates en hilo),
+          solicitudes de cambio, revisión de código o el uso de un conjunto de apps gratuitas y de pago
+          en GitHub Marketplace. Con las capas de colaboración tales como el flujo de GitHub, una comunidad
+          de 15 millones de desarrolladores y un ecosistema con cientos de integraciones, GitHub cambia la
+          forma en la que se crea el software.</p>
+        <p>GitHub crea una colaboración directamente en el proceso de desarrollo. El trabajo se organiza
+          en los repositorios donde los desarrolladores pueden describir los requisitos o la dirección y
+          marcar las expectativas para los miembros de los equipos. Posteriormente, utilizando el flujo de
+          GitHub, los desarrolladores simplemente crean una rama para trabajar en las actualizaciones,
+          confirmar cambios para guardarlos, abrir una solicitud de cambios para proponerlos y debatirlos y
+          fusionar solicitudes de cambio una vez que todos estén de acuerdo. Para obtener más información,
+          consulta la sección "Flujo de GitHub".</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mtb">
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="img-responsive" src="img/git_26.jpeg" alt="">
+      </div>
+
+      <div class="col-lg-6">
+        <h3>GitHub y la línea de comandos</h3>
+        <h4>Comandos básicos de Git</h4>
+        <p>Para utilizar Git, los desarrolladores utilizan comandos específicos para copiar, crear, cambiar y
+          combinar el código. Estos comandos pueden ejecutarse directamente desde la línea de comandos o utilizando
+          una aplicación como GitHub Desktop. Aquí tienes algunos comandos comunes para utilizar Git:
+        </p>
+        <p>git init: inicializa un repositorio nuevo de Git y comienza a rastrear el directorio existente. Este
+          agrega una subcarpeta oculta dentro del directorio existente que hospeda la estructura de datos interna
+          que se requiere para el control de versiones.</p>
+        <p>git clone: crea una copia local de un proyecto que ya existe remotamente. El clon incluye todos los
+          archivos, historial y ramas del proyecto.</p>
+        <p>git add: prueba un cambio. Git rastrea los cambios que se hacen a la base de código de un desarrollador,
+          pero es necesario probarlos y tomar una captura de pantalla de ellos para incluirla en el historial del
+          proeycto. Este comando realiza pruebas, la primera parte de este proceso de dos pasos. Cualquier cambio
+          que se pruebe, se convertirá en parte de la siguiente captura de pantalla y también del historial del
+          proyecto. Las pruebas y confirmaciones por separado otorgan a los desarrolladores el control completo
+          sobre el historial y sobre el proyecto sin cambiar la forma en la que codifican y trabajan.</p>
+        <p>git commit: guarda la captura de pantalla del historial del proeycto y completa el proceso de rastreo
+          de cambios. En resumen, una confirmación funciona tal como el tomar una fotografía. Todo lo que se
+          pruebe con git add se convertirá en parte de la captura de pantalla con git commit.</p>
+        <p>git status: muestra el estado de los cambios como "sin rastrear", "modificados" o "probados".</p>
+        <p>git branch: muestra las ramas en las que se está trabajando localmente.</p>
+        <p>git push: actualiza el repositorio remoto con cualquier confirmación que se haga localmente a una rama.</p>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+  </div>
+
+
+  <div id="copyrights">
+    <div class="container">
+      <p>
+        &copy; Copyrights <strong>2022 GitHub, Inc.</strong>.
+      </p>
+      <div class="credits">
+        <a href="https://github.community/">Pregúntale a la comunidad de GitHub</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/prettyphoto/js/prettyphoto.js"></script>
+  <script src="lib/isotope/isotope.min.js"></script>
+  <script src="lib/hover/hoverdir.js"></script>
+  <script src="lib/hover/hoverex.min.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
